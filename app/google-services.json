@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553939824837",
+    "project_id": "mela-20406",
+    "storage_bucket": "mela-20406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553939824837:android:8408779a8085de87ef40ac",
+        "android_client_info": {
+          "package_name": "com.droidclan.mela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553939824837-q1mshm2kcmop3ebnbhk89i3eotekcr96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsJYL6zBRzH_LO318UO_Mk69MTZx8I2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553939824837-q1mshm2kcmop3ebnbhk89i3eotekcr96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
