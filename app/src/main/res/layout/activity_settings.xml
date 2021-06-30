@@ -8,34 +8,35 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:elevation="4dp"
-        android:background="@color/white"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <ImageView
             android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:clickable="true"
             android:focusable="true"
-            android:tint="@color/post_heading"
             android:src="@drawable/back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:tint="@color/post_heading" />
 
 
         <TextView
             android:id="@+id/title"
-            android:text="Settings"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/post_heading"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Settings"
+            android:textColor="@color/post_heading"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </android.support.v7.widget.Toolbar>
 
